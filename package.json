@@ -1,0 +1,20 @@
+{
+  "name": "company-companion",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "10.15.0",
+    "yarn": "1.13.0"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "repository": "https://github.com/niels-van-den-broeck/company-companion.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
