@@ -7,12 +7,14 @@
     "yarn": "1.13.0"
   },
   "scripts": {
+    "serve": "PORT=7070 nodemon server.js",
     "lint": "./node_modules/.bin/eslint ./"
   },
   "repository": "https://github.com/niels-van-den-broeck/company-companion.git",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
   },
   "devDependencies": {
     "eslint": "^5.14.1"
