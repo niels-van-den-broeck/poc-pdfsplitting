@@ -1,4 +1,5 @@
-// require paths to listeners
+const registerCompanyRoutes = require('./company/');
+
 module.exports = router => {
-    // call listeners
+    registerCompanyRoutes(router);
 };

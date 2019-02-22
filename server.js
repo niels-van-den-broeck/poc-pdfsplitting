@@ -1,14 +1,11 @@
 const express = require('express');
 
-const registerRoutes = require('./routes/');
-
-const app = express();
+const configureApp = require('./config/express');
 const port = process.env.PORT; // eslint-disable-line no-undef
 
-const router = express.Router();
-registerRoutes(router);
+const app = express();
 
-app.use(router);
+configureApp(app);
 
 app.listen(port, () => {
     console.log(`App running on port ${port}`); // eslint-disable-line no-console
