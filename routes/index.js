@@ -1,5 +1,7 @@
-const registerCompanyRoutes = require('./company/');
+const registerBookRoutes = require('./book');
+const registerPdfRoutes = require('./pdf');
 
 module.exports = router => {
-    registerCompanyRoutes(router);
+  registerBookRoutes(router);
+  registerPdfRoutes(router);
 };

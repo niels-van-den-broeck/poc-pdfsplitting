@@ -8,7 +8,9 @@ const errorHandler = require('../middlewares/error-handler');
 module.exports = app => {
     const router = express.Router();
     registerRoutes(router);
-
+    router.get('*', (req, res, next) => {
+        res.send(200)
+    });
     app.use('/api', router);
     app.use((req, res, next) => next(notFound()));
     app.use(errorHandler);
