@@ -61,10 +61,10 @@ Player performance can be viewed using the POC branch.
 
 - Answer layer will need png nonetheless to provide transparency. Since the content of the answer pages is rather small this is not much of a problem
 
-#### Size comparison (Spitze 1 page 9-10)
-- PNG: 2.1 MB + 791 = 2.891 MB on disk
-- JPEG: 983 KB + 655 KB = 1.638 MB on disk
-- PDF 344 KB on disk
+#### Size comparison (Spitze 1 page 10-11)
+- PNG: 791 KB + 2.1 MB = 2.891 MB on disk
+- JPEG: 655 KB + 786 KB = 1441 MB on disk
+- PDF 705 KB on disk
 
 ### Image conversion
 
