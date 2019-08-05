@@ -14,6 +14,10 @@
 
 - Serve Images trough Cloudfront distribution?
 
+#### Cover and back cover
+
+Will require to be named as 'cover' and 'backCover' since we potentially don't know the totalPages when uploading a backCover
+
 
 ### Player implications
 
