@@ -49,7 +49,7 @@ Will require to be named as 'cover' and 'backCover' since we potentially don't k
 ### General
 
 Player speed when navigating improves dramatically. Code gets a lot easier as well.
-Problem is that the conversion / player refactoring can not be done in sync since one relies on the other. This does cause the 1 september deadline to be a stretch. I think the entire refactoring would take somewhere around 4 weeks (Could be more, could be less). If done efficiently, pairing might be able to speed this up a little bit. Mainly on the player part (Printing vs Book rendering).
+Given some setup on AWS (manually adding the image files for a pdf), the player and lambda could be developed at the same time. This does cause the 1 september deadline to be a stretch. I think the entire refactoring would take somewhere around 4 weeks (Could be more, could be less). If done efficiently, pairing might be able to speed this up a little bit. Mainly on the player part (Printing vs Book rendering).
 
 Player performance can be viewed using the POC branch.
 
