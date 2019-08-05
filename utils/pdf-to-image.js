@@ -1,12 +1,8 @@
-const pdfjsLib = require('pdfjs-dist');
 const fs = require('fs');
 const path = require('path');
 
 const NodeCanvasFactory = require('./canvas-factory');
-
-function loadDoc(binary) {
-  return pdfjsLib.getDocument(binary).promise;
-}
+const { loadDoc } = require('./pdf-helpers');
 
 
 module.exports = async function pdfToImage(binary, isAnswer) {
